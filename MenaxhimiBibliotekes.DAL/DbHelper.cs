@@ -12,7 +12,7 @@ namespace MenaxhimiBibliotekes.DAL
 {
     class DbHelper
     {
-        private static string ConnectionString = ConfigurationManager.ConnectionStrings["DBConnectionGranit"].ConnectionString;
+        private static string ConnectionString = ConfigurationManager.ConnectionStrings["DBConnectionEndrit"].ConnectionString;
 
         public static SqlConnection GetConnection()
         {
